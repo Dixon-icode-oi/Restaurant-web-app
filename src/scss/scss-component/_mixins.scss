@@ -1,0 +1,90 @@
+// Admin Responsive Queries
+
+@media only screen and(max-width: 480px) {
+    .dashboard__items{
+        display: none;
+    }
+    .user{
+        color: #02ba02;
+    }
+    .admin__container{
+        grid-template-columns: 100%;
+    }
+    .ad__navbar{
+        width: 100%;
+        left: 0;
+        padding: .3rem;
+
+        position: fixed;
+        background-color: $dark;
+    }
+    .fa-sign-out{
+        display: none;
+    }
+    .s{
+        display: none;
+    }
+    .none{
+        display: none;
+    }
+    .notification{
+        align-items: center;
+    }
+    .set a{
+        display: none;
+    }
+    .toggler-icon{
+        color: $hotpink;
+        outline: none;
+        display: block;
+        font-size: 1.5rem;
+    }
+    .ad_container{
+        left: 0%;
+        width: 100%;
+
+        .ad_content{
+            display: flex;
+            flex-direction: column;
+            width: 120%;
+            margin-left: -1.7rem;
+    
+
+            .db_summary{
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+                grid-gap: 10px;
+                // margin-left: -1rem;
+
+                div{
+                    width: 70%;
+                    margin: 0 auto;
+                    h4{
+                        margin-top: 1rem;
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+
+        }
+        .sale_order_expense_chart{
+            width: 100%;
+            height: 100%;    
+    
+            .compare_stat{
+                height: 400px;
+            }
+        }
+    }
+    .users{
+        padding: 1rem 0;
+    }
+    .empl{
+        display: none;
+    }
+}
+
+
+
+// Homepage Media Query
+
